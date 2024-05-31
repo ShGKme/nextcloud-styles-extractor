@@ -1,0 +1,2 @@
+#  Nextcloud Server Styles
+
