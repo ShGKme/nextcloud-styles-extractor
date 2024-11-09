@@ -1,0 +1,3 @@
+* text=auto eol=lf
+/styles/** binary
+/styles/**/REUSE.toml text
