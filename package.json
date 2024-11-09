@@ -12,8 +12,8 @@
 		"./*": "./styles/master/*",
 		"./stable30": "./styles/stable30/index.js",
 		"./stable30/*": "./styles/stable30/*",
-		"./stable29": "./styles/stable30/index.js",
-		"./stable29/*": "./styles/stable30/*"
+		"./stable29": "./styles/stable29/index.js",
+		"./stable29/*": "./styles/stable29/*"
 	},
 	"module": "styles/master/index.js",
 	"repository": "https://github.com/ShGKme/nextcloud-styles-extractor",
