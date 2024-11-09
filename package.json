@@ -2,25 +2,29 @@
   "name": "@shgk/nextcloud-styles",
   "version": "0.1.0",
   "description": "Nextcloud server global styles for testing and development",
-	"keywords": ["nextcloud"],
-	"bugs": "https://github.com/ShGKme/nextcloud-styles-extractor/issues",
-	"license": "AGPL-3.0-or-later",
-	"author": "Grigorii K. Shartsev <me@shgk.me>",
-	"files": ["styles"],
-	"exports": {
-		".": "./styles/master/index.js",
-		"./*": "./styles/master/*",
-		"./master": "./styles/master/index.js",
-		"./master/*": "./styles/master/*",
-		"./stable30": "./styles/stable30/index.js",
-		"./stable30/*": "./styles/stable30/*",
-		"./stable29": "./styles/stable29/index.js",
-		"./stable29/*": "./styles/stable29/*"
-	},
-	"module": "styles/master/index.js",
-	"repository": "https://github.com/ShGKme/nextcloud-styles-extractor",
-	"type": "module",
-	"scripts": {
+  "keywords": [
+    "nextcloud"
+  ],
+  "bugs": "https://github.com/ShGKme/nextcloud-styles-extractor/issues",
+  "license": "AGPL-3.0-or-later",
+  "author": "Grigorii K. Shartsev <me@shgk.me>",
+  "files": [
+    "styles"
+  ],
+  "exports": {
+    ".": "./styles/master/index.js",
+    "./*": "./styles/master/*",
+    "./master": "./styles/master/index.js",
+    "./master/*": "./styles/master/*",
+    "./stable30": "./styles/stable30/index.js",
+    "./stable30/*": "./styles/stable30/*",
+    "./stable29": "./styles/stable29/index.js",
+    "./stable29/*": "./styles/stable29/*"
+  },
+  "module": "styles/master/index.js",
+  "repository": "https://github.com/ShGKme/nextcloud-styles-extractor",
+  "type": "module",
+  "scripts": {
     "build": "zx build.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,7 +32,7 @@
     "semver": "^7.6.3",
     "zx": "^8.1.5"
   },
-	"engines": {
-		"node": ">=20.0.0"
-	}
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
