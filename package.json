@@ -10,6 +10,8 @@
 	"exports": {
 		".": "./styles/master/index.js",
 		"./*": "./styles/master/*",
+		"./master": "./styles/master/index.js",
+		"./master/*": "./styles/master/*",
 		"./stable30": "./styles/stable30/index.js",
 		"./stable30/*": "./styles/stable30/*",
 		"./stable29": "./styles/stable29/index.js",
